@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intro + Hacked</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      background: black;
+      overflow: hidden;
+      font-family: 'Courier New', monospace;
+    }
+
+    #intro-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    #alert-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      font-size: 60px;
+      color: rgb(255, 255, 255);
+      text-shadow: 0 0 15px rgb(182, 182, 182);
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+
+    #hacked-content {
+      display: none;
+      background: #000;
+      color: #fff;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    .image-box {
+      border: 2px solid #444;
+      margin: 20px auto;
+      width: 400px;
+      padding: 5px;
+    }
+
+    .image-box img {
+      width: 100%;
+      filter: grayscale(100%);
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #ccc;
+      text-shadow: 0 0 15px #fff;
+    }
+
+    .box {
+      background: #0a0a0a;
+      border: 1px solid #222;
+      padding: 20px;
+      width: 500px;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    .box code {
+      color: #999;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .cmd {
+      color: #ffffff;
+      text-align: left;
+    }
+
+    .left-box {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background: #0a0a0a;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #222;
+      color: rgb(255, 0, 0);
+    }
+
+    .left-box small {
+      color: #ccc;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Intro Video -->
+  <video id="intro-video" autoplay muted>
+    <source src="intro" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <!-- SYSTEM ALERT Text -->
+  <div id="alert-text">Alert System AlShreef In The System</div>
+
+  <!-- Hacked Page Content -->
+  <div id="hacked-content">
+    <div class="left-box">
+      <strong>Dis.gg/Trf & #FuckOut</strong>
+      <p>Dis.gg/Trf & #FuckOut</p>
+      <p>how to Be Man Like Trf Team</p>
+      <p>How to Be FullStack Devloper</p>
+      <p>How To Make Any Script And Ui</p>
+      <p>Dis.gg/Trf & #FuckOut</p>
+      <p>Dis.gg/Trf & #FuckOut</p>
+      <p>All Thing's By Cypranos And SaHm</p>
+      <br>
+      <small>💬 discord.gg/Trf</small>
+    </div>
+
+    <div class="image-box">
+      <img src="tumblr_n00xb8yAvH1rd333do1_500.gif" alt="Fuckk">
+    </div>
+
+    <h1># HacKed By AlShreef </h1>
+
+    <div class="box">
+      <code>●●● discord.gg/Trf & 26s Team</code>
+      <code><span style="color:#888;">Clutch@system:~$</span> <strong style="color:white"></strong></code>
+      <div class="cmd">Trf : انا الي زغبتك تذكرني</div>
+    </div>
+
+    <div class="footer">
+      OFFICALY BLACK$HAMMER • TRF
+    </div>
+  </div>
+
+  <script>
+    const video = document.getElementById('intro-video');
+    const alertText = document.getElementById('alert-text');
+    const hacked = document.getElementById('hacked-content');
+
+    // بعد 6 ثواني: يخفي الفيديو والنص ويعرض صفحة الاختراق
+    setTimeout(() => {
+      video.style.display = 'none';
+      alertText.style.display = 'none';
+      hacked.style.display = 'block';
+    }, 6000);
+  </script>
+
+</body>
+</html>
