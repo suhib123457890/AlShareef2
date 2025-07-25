@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dis/ddv</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #ff0000;
+      color: #ffffff;
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* شبكة خفيفة */
+    }
+
+    .image {
+      margin-bottom: 20px;
+    }
+
+    .image img {
+      width: 300px;
+      border: 2px solid #ff0000;
+      filter: grayscale(100%);
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #999999;
+      margin: 0 0 20px 0;
+    }
+
+    .terminal {
+      background: #000000;
+      padding: 20px;
+      border-radius: 5px;
+      width: 80%;
+      max-width: 600px;
+      font-size: 16px;
+      line-height: 1.6;
+      color: rgb(133, 122, 122);
+      box-shadow: 0 0 15px rgb(141, 141, 141);
+    }
+
+    .terminal span.command {
+      color: #505050;
+    }
+
+    .discord-box {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: #000000;
+      padding: 15px;
+      border: 1px solid #636363;
+      border-radius: 5px;
+    }
+
+    .discord-box a {
+      display: block;
+      margin-bottom: 10px;
+      color: rgb(87, 75, 75);
+      text-decoration: none;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 12px;
+      color: #5e5757;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="discord-box">
+    <a href="https://discord.gg/ddv">You can find everything in discord</a>
+    <a href="https://discord.gg/ddv">You can find everything in discord</a>
+    <a href="https://discord.gg/ddv">You can find everything in discord</a>
+    <a href="https://discord.gg/ddv">You can find everything in discord</a>
+    <br />
+    <a href="https://discord.gg/ddv">discord.gg/ddv</a>
+  </div>
+
+  <div class="image">
+    <img src="https://cdn.discordapp.com/attachments/1308181430991323237/1394211879617826906/01eff86a26a3a247bd89c265215840d5.jpg?ex=6875fc7f&is=6874aaff&hm=94c72b5388114ae3d20b9530f2b4343807089b375076d7e5cdfbf97cd9d434a6&" alt="Itachi" />
+  </div>
+
+  <h1>💀HACKED BY discord/ddv</h1>
+
+  <div class="terminal">
+    <span class="command">ddv.com</span><br />
+    <strong style="color:rgb(104, 104, 104)">discrd/ddv :</strong> send Regards 
+  </div>
+
+  <div class="footer">
+    OFFICALLY BLACK$HAMMER - SubaieNetwork 😎😘
+  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sound Test</title>
+</head>
+<body style="background-color:black; color:rgb(0, 0, 0); text-align:center; padding-top:50px;">
+
+  <h1></h1>
+
+  <audio autoplay loop hidden>
+  <source src="https://files.catbox.moe/d33kxf.mp3" type="audio/mpeg">
+</audio>
+
+  <script>
+    function playAudioOnce() {
+      const audio = document.getElementById("bg-audio");
+      audio.play().then(() => {
+        console.log("🎵 الصوت شغال");
+      }).catch((err) => {
+        console.log("❌ ما اشتغل: ", err);
+      });
+
+      // نوقف الاستماع بعد أول محاولة
+      document.removeEventListener("mousemove", playAudioOnce);
+      document.removeEventListener("click", playAudioOnce);
+    }
+
+    document.addEventListener("mousemove", playAudioOnce);
+    document.addEventListener("click", playAudioOnce);
+  </script>
+
+</body>
+</html>
+
+
+</body>
+</html>
